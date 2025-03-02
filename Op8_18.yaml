@@ -1,0 +1,5 @@
+---
+target: Op8_18
+reference: lvs_work/Op8_18_reference.cir.txt
+netlist: C:/Users/seijirom/Seafile/PTS06_2023_8/OpAmp8_18/op8_18.net
+schematic: C:/Users/seijirom/Seafile/PTS06_2023_8/OpAmp8_18/op8_18.asc

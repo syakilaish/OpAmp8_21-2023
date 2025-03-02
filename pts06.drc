@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>Output database</description>
+ <original-file/>
+ <generator>drc: script='C:/Users/seijirom/KLayout/salt/PTS06/Technology/tech/drc\\drc.lydrc'</generator>
+ <top-cell>Op8_18_rev1</top-cell>
+ <tags>
+  <tag>
+   <name>red</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>green</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>blue</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>yellow</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>waived</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>important</name>
+   <description/>
+  </tag>
+ </tags>
+ <categories>
+  <category>
+   <name>NWL space &lt; 4.0</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>NWL(diff.pot) space &lt; 5.0</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Parea space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Narea space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Parea-Narea space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DIFF space &lt; 1.2</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>NWL-Ndiff space &lt; 3.0</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pdiff-NScont space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Ndiff-PScont space &lt; 1.0</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>POL space &lt; 0.6</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name> POL(MOS) space &lt; 1.0</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>POL-diff (ineracting DIFF) space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>POL-diff (outside DIFF) space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Diff-dcont space &lt; 1.0</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MOS-cnt space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Diff-pcont space &lt; 1.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>POL-pcont space &lt; 0.5, may be pseudo-error (can be ignored)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ML1 space &lt; 0.8</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ML2 space &lt; 0.8</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ML3 space &lt; 0.8</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ML1-dcont space &lt; 0.5, may be pseudo-error (can be ignored)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ML1-pcont space &lt; 0.5, may be pseudo-error (can be ignored)</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via1 space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2 space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ML1-via1 space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ML2-via1 space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ML2-via2 space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ML3-via2 space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via1-dcont space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via1-pcont space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via1-nscont space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via1-pscont space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via1-via2 space &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>dcont space &lt; 0.6</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Poly in HPOL space &lt; 2.0</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Poly outside HPOL space &lt; 1.0</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>HPOL MOS gate space &lt; 3.0</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>dcn-MOS overlap</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>pcont-via1 non-stack</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>dcont-via1 non-stack</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via1-via2 non-stack</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>NWL width &lt; 4.0</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>NWL(diff.pot) width &lt; 4.0</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Parea width &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Narea width &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DIFF width &lt; 1.0</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>POL width &lt; 0.6</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ML1 width &lt; 0.8</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ML2 width &lt; 0.8</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ML3 width &lt; 0.8</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Poly in HPOL width &lt; 2.0</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pdiff enclosure in NWL &lt; 2.0</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>nsubcon outside NWL</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DIFF enclosure in Parea &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DIFF enclosure in Narea &lt; 0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>POL enclosure in HPOL &lt; 5.0</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>pol diff extension &lt;0.8</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Stand alone Cont</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Stand alone VIA1</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Stand alone VIA2</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>NHD width &lt; 1.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>NHD space &lt;1.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>NHD enclosing Ndiff &lt;0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>NHD Pdiff clearance &lt;0.5</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>Op8_18_rev1</name>
+   <variant/>
+   <references>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'NHD width &lt; 1.5'</category>
+   <cell>Op8_18_rev1</cell>
+   <visited>true</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge-pair: (60.914,198;60.5,198)|(59.086,198.5;59.5,198.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'NHD width &lt; 1.5'</category>
+   <cell>Op8_18_rev1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge-pair: (60.5,198;60.5,197.382)|(59.5,198.5;59.5,199.118)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'NHD space &lt;1.5'</category>
+   <cell>Op8_18_rev1</cell>
+   <visited>true</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge-pair: (57,175;60,175)|(60.5,175.5;56.5,175.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'NHD space &lt;1.5'</category>
+   <cell>Op8_18_rev1</cell>
+   <visited>true</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge-pair: (49.5,143.5;49.5,144)|(49,144;49,143.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'NHD space &lt;1.5'</category>
+   <cell>Op8_18_rev1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge-pair: (49.5,147;49.5,147.5)|(49,147.5;49,147)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'NHD space &lt;1.5'</category>
+   <cell>Op8_18_rev1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge-pair: (119.5,197;123.5,197)|(123.5,198;119.5,198)</value>
+   </values>
+  </item>
+ </items>
+</report-database>

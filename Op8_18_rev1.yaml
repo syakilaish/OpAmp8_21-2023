@@ -1,0 +1,5 @@
+---
+target: Op8_18_rev1
+reference: lvs_work/Op8_18_rev1_reference.cir.txt
+netlist: C:/Users/seiji/Seafile/LSI開発/PTS06_2023_8/OpAmp8_18/op8_18_tb_parasitics.net
+schematic: C:/Users/seiji/Seafile/LSI開発/PTS06_2023_8/OpAmp8_18/op8_18_tb_parasitics.asc

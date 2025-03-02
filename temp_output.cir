@@ -1,0 +1,23 @@
+* Created by KLayout
+
+* cell MPoly_cap$2
+.SUBCKT MPoly_cap$2
+* device instance $1 r0 *1 9.625,5 CAP
+C$1 2 1 2.8e-15 CAP
+* device instance $2 r0 *1 9.625,5 CAP
+C$2 1 2 4.5e-15 CAP
+.ENDS MPoly_cap$2
+
+* cell Poly_cap$1
+.SUBCKT Poly_cap$1
+* device instance $1 r0 *1 9.625,5 CAP
+C$1 2 1 2.8e-15 CAP
+.ENDS Poly_cap$1
+
+* cell MPoly_cap$3
+.SUBCKT MPoly_cap$3
+* device instance $1 r0 *1 94.625,60 CAP
+C$1 2 1 6.048e-13 CAP
+* device instance $2 r0 *1 94.625,60 CAP
+C$2 1 2 9.72e-13 CAP
+.ENDS MPoly_cap$3
